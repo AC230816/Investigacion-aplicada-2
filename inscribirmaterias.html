@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción de Materias</title>
+</head>
+<body>
+    <form action="http://localhost:3000/inscripcion" method="post">
+        <label for="carrera">Carrera:</label>
+        <select name="carrera" id="carrera">
+            <option value="tecnico">Técnico en Ingeniería en Ciencias de la Computación</option>
+            <option value="ingenieria">Ingeniería en Ciencias de la Computación</option>
+        </select>
+        <br>
+
+        <label for="ciclo">Ciclo:</label>
+        <input type="number" name="ciclo" id="ciclo">
+        <br>
+
+        <label for="materias">Materias a inscribir:</label>
+        <select name="materias" id="materias" multiple>
+            
+        </select>
+        <br>
+
+        <input type="submit" value="Inscribir Materias">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
