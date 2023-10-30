@@ -1,0 +1,16 @@
+1.Ruta para probrar las consultas de los prerrequisitos de una materia: 
+   - http://localhost:3000/tecnico-computacion/:numeroMateria
+   - http://localhost:3000/ingenieria-computacion/:numeroMateria
+
+2.Ruta para probar las consultas de las materias por ciclo:
+   - http://localhost:3000/tecnico-computacion/consulta-materias-por-ciclo/:numeroCiclo
+   - http://localhost:3000/ingenieria-computacion/consulta-materias-por-ciclo/:numeroCiclo
+
+3.Ruta para probar la inscripción de materias:
+   - http://localhost:3000/inscripcion
+
+Puede probar la API haciendo uso de un navegador o de la herramienta Postman. Si desea probar la API con un navegador simplemente digite las rutas mostradas anteriormente y en su pantalla aparecerá 
+una respuesta en formato JSON. 
+
+Si desea hacer uso de POSTMAN para probar la API, entonces digite las rutas mostradas anteriormente y asegúrese de que en los primeros dos puntos esté usando una petición GET. Para la última ruta 
+asegúrese de estar usando una petición POST. 
